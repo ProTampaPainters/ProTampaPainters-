@@ -37,8 +37,8 @@
 }
 
 .btn-square,
-.btn-sm-square,
-.btn-lg-square {
+.-sm-square,
+.-lg-square {
     padding-left: 0;
     padding-right: 0;
     text-align: center;
