@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0000FF;
-    --secondary: #8CC641;
-    --light: #F2F2F2;
-    --dark: #272630;
+    --primary: #1E90FF;
+    --secondary: #A9A9A9;
+    --light: #ADD8E6;
+    --dark: #00008B;
 }
 
 .btn {
