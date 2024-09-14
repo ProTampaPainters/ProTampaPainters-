@@ -5,6 +5,14 @@
     --light: #ADD8E6;
     --dark: #00008B;
 }
+/* Add this to your existing CSS file */
+.pop-button {
+  transition: transform 0.1s ease-in-out;
+}
+
+.pop-button:active {
+  transform: scale(1.1);
+}
 
 .btn {
     font-weight: 700;
