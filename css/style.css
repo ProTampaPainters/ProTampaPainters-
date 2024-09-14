@@ -58,7 +58,7 @@
  .paint-streak {
             width: 100px;
             height: 100px;
-            background-color: red;
+    
             animation: streak 2s ease-in-out 1s !important; /* 1s delay */
         }
 
