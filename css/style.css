@@ -55,17 +55,7 @@
 }
 */
 
-.paint-streak {
-            width: 100px;
-            height: 100px;
-        
-            animation: streak 1s ease-in-out 1s !important; /* 1s duration */
-            position: relative; /* Ensure it stays within its container */
-        }
 
-        @keyframes streak {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(50px); } /* Adjusted to a shorter distance */
 
 
 .btn {
