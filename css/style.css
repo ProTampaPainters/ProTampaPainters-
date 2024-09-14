@@ -7,11 +7,13 @@
 }
 /* Add this to your existing CSS file */
 .pop-button {
-  transition: transform 0.1s ease-in-out;
+  transition: transform 0.2s;
 }
 
 .pop-button:active {
   transform: scale(1.1);
+}
+
 }
 
 .btn {
