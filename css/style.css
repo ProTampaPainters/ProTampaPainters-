@@ -59,7 +59,7 @@
             width: 100px;
             height: 100px;
     
-            animation: streak 1s ease-in-out 1s !important; /* 1s delay */
+            animation: streak 1s ease-in-out 1s !important; /* 1s duration */
         }
 
         @keyframes streak {
