@@ -55,7 +55,19 @@
 }
 */
 
+      .paint-streak {
+            width: 100px;
+            height: 100px;
+           
+            animation: streak 1s ease-in-out 1s; /* 1s duration */
+            position: absolute; /* Changed to absolute positioning */
+            left: 0; /* Start from the left */
+        }
 
+        @keyframes streak {
+            0% { left: 0; }
+            100% { left: 50px; } /* Move 50px to the right */
+        }
 
 
 .btn {
