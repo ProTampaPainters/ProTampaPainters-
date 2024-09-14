@@ -27,6 +27,26 @@
         $(window).resize(toggleNavbarMethod);
     });
     
+// button delay 
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('quoteButton');
+    button.addEventListener('mouseover', function() {
+        setTimeout(function() {
+            button.classList.add('animate');
+        }, 500); // 500ms delay
+    });
+
+    button.addEventListener('mouseout', function() {
+        button.classList.remove('animate');
+    });
+});
+
+
+
+
+
+
+
     
     // Back to top button
     $(window).scroll(function () {
