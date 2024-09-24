@@ -41,6 +41,20 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Get elements
+const chatBubble = document.getElementById('chat-bubble');
+const chatbotWindow = document.getElementById('chatbot-window');
+const closeButton = document.getElementById('close-btn');
+
+// Open chatbot window on bubble click
+chatBubble.addEventListener('click', function() {
+    chatbotWindow.style.display = 'block';
+});
+
+// Close chatbot window on close button click
+closeButton.addEventListener('click', function() {
+    chatbotWindow.style.display = 'none';
+});
 
 
 
